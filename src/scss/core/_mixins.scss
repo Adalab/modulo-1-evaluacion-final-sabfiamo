@@ -14,3 +14,7 @@
     @content;
   }
 }
+@mixin formatGrid($column, $row) {
+  grid-column: $column;
+  grid-row: $row;
+}
