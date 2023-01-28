@@ -39,23 +39,27 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      // row-gap: 20px;
-      font: $roboto_regular_16;
-      // line-height: 1.88;
       padding-bottom: 30px;
       @media (min-width: 768px) {
         align-items: start;
         justify-content: center;
       }
     }
+    &__link {
+      text-decoration: none;
+      color: $color_white;
+      font: $roboto_regular_16;
+      line-height: 1.88;
+    }
   }
+
   &--foot {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font: $roboto_regular_14;
-    // line-height: 2.14;
+    line-height: 2.14;
     @media (min-width: 768px) {
       order: -1;
       align-items: start;
@@ -65,7 +69,7 @@
     &__icon {
       color: $color_red;
       font: $roboto_regular_14;
-      // line-height: 2.14;
+      line-height: 2.14;
     }
   }
 }
