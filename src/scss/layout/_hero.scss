@@ -17,13 +17,28 @@
     font: $robotoSlab_bold_30;
     color: $color_white;
     line-height: 1.67;
+    @media (min-width: 768px) {
+      font: $robotoSlab_bold_75;
+      padding-top: 409px;
+    }
+    @media (min-width: 1200px) {
+      font: $robotoSlab_bold_100;
+      padding-top: 349px;
+    }
   }
   &--subtitle {
     text-align: center;
     font: $roboto_regular_16;
     color: $color_white;
-    padding-bottom: 20px;
+
     padding: 0 42.9px 20px 33.8px;
+    @media (min-width: 768px) {
+      font: $roboto_regular_24;
+      padding: 0 192.2px 90px 235.7px;
+    }
+    @media (min-width: 1200px) {
+      padding: 0 272.2px 157.5px 253px;
+    }
   }
   &--buttom {
     border-radius: 22.5px;
@@ -34,6 +49,18 @@
     text-decoration: none;
     color: $color_white;
     padding: 14.3px 10.1px 12.2px 11px;
+    width: 37.9px;
+    height: 35.7px;
+    @media (min-width: 768px) {
+      padding: 18px 11.3px 15.3px 12.3px;
+      width: 42.5px;
+      height: 45px;
+    }
+    @media (min-width: 1200px) {
+      padding: 18.4px 12.3px 15.6px 13.3px;
+      width: 46.2px;
+      height: 45.9px;
+    }
 
     &__scroll {
       width: 18px;

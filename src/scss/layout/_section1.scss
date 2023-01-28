@@ -8,11 +8,17 @@
     font: $roboto_regular_14;
     color: $color_red;
     line-height: 2.14;
+    @media (min-width: 768px) {
+      font: $roboto_regular_16;
+    }
   }
 
   &--title {
     font: $robotoSlab_bold_24;
     line-height: 1.25;
+    @media (min-width: 768px) {
+      font: $robotoSlab_bold_32;
+    }
   }
   &--description {
     font: $roboto_regular_18;
@@ -21,6 +27,9 @@
     text-align: left;
     padding-top: 11px;
     padding-bottom: 11px;
+    @media (min-width: 768px) {
+      font: $roboto_regular_20;
+    }
   }
   &--button {
     display: inline-block;

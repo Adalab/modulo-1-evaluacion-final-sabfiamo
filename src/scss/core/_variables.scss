@@ -6,7 +6,7 @@ $defaultFontSize: 16;
 $breakpoint-tablet: 768px;
 $breakpoint-desktop: 1024px;
 
-//fonts
+//fonts mobile
 
 $robotoSlab_bold_30: 700 30px "Roboto Slab", sans-serif;
 $robotoSlab_bold_24: 700 24px "Roboto Slab", sans-serif;
@@ -16,6 +16,16 @@ $roboto_medium_20: 500 20px "Roboto", sans-serif;
 $roboto_regular_18: 400 18px "Roboto", sans-serif;
 $roboto_regular_16: 400 16px "Roboto", sans-serif;
 $roboto_regular_14: 400 14px "Roboto", sans-serif;
+
+//fonts tablet
+$robotoSlab_bold_75: 700 75px "Roboto Slab", sans-serif;
+$robotoSlab_bold_32: 700 32px "Roboto Slab", sans-serif;
+$robotoSlab_bold_28: 700 28px "Roboto Slab", sans-serif;
+$roboto_regular_24: 400 24px "Roboto", sans-serif;
+$roboto_regular_20: 400 24px "Roboto", sans-serif;
+
+//fonts desktop
+$robotoSlab_bold_100: 700 100px "Roboto Slab", sans-serif;
 
 // colors
 $color_white: #ffffff;

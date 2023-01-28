@@ -18,8 +18,12 @@
     padding-right: 20px;
     padding-bottom: 45px;
     @media (min-width: 768px) {
+      font: $robotoSlab_bold_28;
       grid-column: span 3;
       grid-row: 1;
+    }
+    @media (min-width: 1200px) {
+      font: $robotoSlab_bold_32;
     }
   }
   &--article {
@@ -30,12 +34,21 @@
       font: $robotoSlab_bold_18;
       line-height: 1.67;
       text-align: center;
+      @media (min-width: 768px) {
+        font: $robotoSlab_bold_24;
+      }
     }
     &__description {
       font: $roboto_regular_18;
       color: $color_black;
       line-height: 1.67;
       text-align: center;
+      @media (min-width: 768px) {
+        font: $roboto_regular_20;
+      }
+      @media (min-width: 1200px) {
+        font: $roboto_regular_20;
+      }
     }
   }
   &--button {
