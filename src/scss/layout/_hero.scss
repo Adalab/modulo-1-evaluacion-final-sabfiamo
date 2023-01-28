@@ -12,7 +12,7 @@
     align-items: center;
   }
   &--title {
-    padding-top: 400px;
+    padding-top: 314px;
     text-align: center;
     font: $robotoSlab_bold_30;
     color: $color_white;
@@ -23,6 +23,7 @@
     font: $roboto_regular_16;
     color: $color_white;
     padding-bottom: 20px;
+    padding: 0 42.9px 20px 33.8px;
   }
   &--buttom {
     border-radius: 22.5px;
@@ -33,10 +34,10 @@
     text-decoration: none;
     color: $color_white;
     padding: 14.3px 10.1px 12.2px 11px;
-  }
-  &__scroll {
-    width: 18px;
-    height: 1opx;
-    color: $color_red;
+
+    &__scroll {
+      width: 18px;
+      height: 10px;
+    }
   }
 }

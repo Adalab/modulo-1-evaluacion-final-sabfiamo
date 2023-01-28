@@ -1,13 +1,12 @@
 .section2 {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 29px 15px 39px 15px;
   background-color: $color_white_two;
   &--title {
     font: $robotoSlab_bold_20;
     line-height: 1.5;
     text-align: center;
-    padding-left: 65px;
-    padding-right: 65px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-bottom: 45px;
   }
   &--articles {
@@ -31,7 +30,7 @@
   display: inline-block;
   border-radius: 40px;
   background-color: $color_red;
-  padding: 12px 35px;
+  padding: 10px 25px;
 
   &--link {
     font: $roboto_medium_20;
@@ -41,9 +40,9 @@
 }
 
 .section2 .article {
-  padding-left: 65px;
-  padding-right: 65px;
-  padding-bottom: 45px;
+  padding-left: 55px;
+  padding-right: 51px;
+  padding-bottom: 41px;
   &--title {
     font: $robotoSlab_bold_18;
     line-height: 1.67;
