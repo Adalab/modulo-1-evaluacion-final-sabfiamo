@@ -3,13 +3,21 @@
   padding-right: 12px;
   padding-top: 34px;
   padding-bottom: 45px;
-
+  @media (min-width: 768px) {
+    padding: 34px 30px 45px 30px;
+  }
+  @media (min-width: 1200px) {
+    padding-left: 275px;
+    padding-right: 136px;
+  }
   &--small {
     font: $roboto_regular_14;
     color: $color_red;
     line-height: 2.14;
+
     @media (min-width: 768px) {
       font: $roboto_regular_16;
+      padding-bottom: 10px;
     }
   }
 
@@ -29,6 +37,7 @@
     padding-bottom: 11px;
     @media (min-width: 768px) {
       font: $roboto_regular_20;
+      padding-bottom: 30px;
     }
   }
   &--button {
