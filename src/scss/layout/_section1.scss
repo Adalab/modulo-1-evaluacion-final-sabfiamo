@@ -51,12 +51,11 @@
       color: $color_red;
       text-decoration: none;
     }
+    //TRANSFORN AND TRANSITION
+    &:hover {
+      transition: transform 3s;
+      transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+      transform: translateX(400px);
+    }
   }
-  //TRANSFORN AND TRANSITION
-  // &--button__link:hover {
-  //   background-color: red;
-  //   color: white;
-  //   transition: transform 1s;
-  //   transform: translateY(35px);
-  // }
 }

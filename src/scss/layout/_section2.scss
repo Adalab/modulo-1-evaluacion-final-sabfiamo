@@ -94,5 +94,10 @@
       text-align: center;
       text-decoration: none;
     }
+    //TRANSFORN AND TRANSITION
+    &:hover {
+      transition: transform 1s;
+      transform: translateX(10px) rotate(360deg) translateY(20px);
+    }
   }
 }

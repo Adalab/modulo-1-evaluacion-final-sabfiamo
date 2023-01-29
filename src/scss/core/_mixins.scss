@@ -18,3 +18,31 @@
   grid-column: $column;
   grid-row: $row;
 }
+@keyframes changeColor {
+  0% {
+    background-color: $color_white;
+  }
+  50% {
+    background-color: green;
+  }
+  75% {
+    background-color: blue;
+  }
+  100% {
+    background-color: red;
+  }
+}
+@keyframes moveButton {
+  0% {
+    transform: translateX(-100px) translateY(-25px);
+  }
+  50% {
+    transform: translateX(-300px) translateY(-25px);
+  }
+  75% {
+    transform: translateX(-100px) translateY(-25px);
+  }
+  100% {
+    transform: translateX(0px) translateY(-25px);
+  }
+}
