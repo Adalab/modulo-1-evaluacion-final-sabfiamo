@@ -9,14 +9,15 @@ En este proyecto he desarrollado una web resposive.
 - **NPM** - Gestor de dependencias
 - **ADALAB STARTER KIT** - 
 
-## Autores ✒️
+## Objectives
+- **Use SASS
+- **Use Flexbox and CSS Grid
+- **Use media queries
+- **Use "animation" and "transition"
 
-- [Mónica Saborido](https://github.com/sabfiamo)
+## Challenges i have solved
+- Adapt the hero in a responsive way
 
-### Challenges i have solved
-- Comenta a otros sobre este proyecto 📢
-
-
-##Contacto
+## Contacto ✒️
 - [Mónica Saborido](https://github.com/sabfiamo)
 
