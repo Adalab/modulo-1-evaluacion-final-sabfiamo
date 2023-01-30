@@ -8,22 +8,20 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
+    padding-bottom: 30px;
   }
   &--title {
-    padding-top: 314px;
     text-align: center;
     font: $robotoSlab_bold_30;
     color: $color_white;
     line-height: 1.67;
     @media (min-width: 768px) {
       font: $robotoSlab_bold_75;
-      padding-top: 160px;
     }
     @media (min-width: 1200px) {
       font: $robotoSlab_bold_100;
-      padding-top: 200px;
     }
   }
   &--subtitle {
