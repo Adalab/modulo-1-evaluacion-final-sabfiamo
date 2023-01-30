@@ -67,18 +67,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font: $roboto_regular_14;
-    line-height: 2.14;
+
     @media (min-width: 768px) {
       order: -1;
       align-items: start;
       justify-content: center;
     }
-
-    &__icon {
+    &__content {
       font: $roboto_regular_14;
-      color: $color_red;
       line-height: 2.14;
+    }
+    &__icon {
+      color: $color_red;
     }
   }
 }
