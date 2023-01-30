@@ -1,21 +1,22 @@
-# Evaluacion
+# Final evaluation exercise: Create a responsive web
 
-En este proyecto hemos desarrollado nuestra **primera web** colaborativa donde presentamos el equipo.
-Es nuestra primera experiencia de trabajo en equipo relacionada con programación.
+En este proyecto he desarrollado una web resposive.
+
 
 ## Construido con 🛠️
 - **HTML / CSS** - Lenguajes de programación
 - **SASS** - Preprocesador CSS
 - **NPM** - Gestor de dependencias
+- **ADALAB STARTER KIT** - 
 
 ## Autores ✒️
 
 - [Mónica Saborido](https://github.com/sabfiamo)
 
-### ¡Muchas gracias!
+### Challenges i have solved
 - Comenta a otros sobre este proyecto 📢
 
 
-##
+##Contacto
+- [Mónica Saborido](https://github.com/sabfiamo)
 
-**** creado con ❤️ por Adalab 😊
