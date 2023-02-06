@@ -24,6 +24,7 @@
   &--title {
     font: $robotoSlab_bold_24;
     line-height: 1.25;
+    text-transform: capitalize;
     @media (min-width: 768px) {
       font: $robotoSlab_bold_32;
     }
