@@ -17,6 +17,7 @@
     font: $robotoSlab_bold_30;
     color: $color_white;
     line-height: 1.67;
+    text-transform: uppercase;
     @media (min-width: 768px) {
       font: $robotoSlab_bold_75;
       padding-right: 29px;
